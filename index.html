@@ -192,9 +192,12 @@
 
             <!-- CMS PROJECT -->
             <div class="card project-card">
-                <img src="cms-project-dummy.avif"
-                     alt="College Management System Project"
-                     class="project-img">
+               <img src="cms-project-dummy.avif"
+     alt="College Management System"
+     class="project-img"
+     onclick="showComingSoon()"
+     style="cursor:pointer;">
+
 
                 <h3>College Management System (CMS)</h3>
 
@@ -215,9 +218,12 @@
                     Tech Stack: Java, Spring Boot, MySQL, REST APIs, React JS, Flutter
                 </p>
 
-                <a href="#experience" class="project-link">
-                    <i class="fas fa-briefcase"></i> Ongoing Enterprise Project
-                </a>
+              <a href="javascript:void(0)" 
+   class="project-link"
+   onclick="showComingSoon()">
+   Ongoing Enterprise Project
+</a>
+
             </div>
 
             <!-- VERTICROSS WEBSITE -->
@@ -294,6 +300,11 @@
 <footer>
     <p>© 2026 Akanksha | Java Developer</p>
 </footer>
+<script>
+    function showComingSoon() {
+        alert("🚧 Ongoing Enterprise Project – Coming Soon!");
+    }
+</script>
 
 </body>
 </html>
